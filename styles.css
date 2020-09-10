@@ -48,8 +48,8 @@ div{
 
 @keyframes example {
     0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px; width: 500px; height: 500px;}
-    50%  {background-color:blue; left:200px; top:200px; width: 300px; height: 10px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px; width:}
+    25%  {background-color:yellow; left:200px; top:0px; width: 500px; height: 500px; border-radius: 5rem;}
+    50%  {background-color:blue; left:200px; top:200px; width: 300px; height: 10px; border-radius: 10rem;}
+    75%  {background-color:green; left:0px; top:200px; border-radius: 15rem;}
+    100% {background-color:red; left:0px; top:0px;}
 }
